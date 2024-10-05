@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Qwitcher+Grypen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.birthday-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  padding: 40px;
+  position: relative;
+}
+
+.left-section {
+  text-align: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.right-section {
+  text-align: center;
+  width: 50%;
+}
+
+.logo img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.greeting {
+  position: relative;
+}
+
+h1.happy_text {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150px;
+}
+.highlight {
+  color: #112ea3;
+  position: absolute;
+  font-weight: 900;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: -40px;
+}
+
+.quote p {
+  font-size: 24px;
+  color: #000;
+  margin: 20px 0;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Arial", sans-serif;
+}
+
+.photo {
+  margin: 20px auto;
+}
+
+.photo img {
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border: 6px solid #112ea3;
+}
+.person-info {
+  position: absolute;
+  background-color: #112ea3;
+  margin-top: -50px;
+  padding: 12px;
+  margin-left: 150px;
+}
+
+.person-info h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.person-info p {
+  font-size: 18px;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.website {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.website p {
+  font-size: 30px;
+  color: #888;
+  text-align: center;
+}
+.comma i {
+  font-size: 40px;
+  color: #112ea3;
+}
+
+.website .icon_left i,
+.website .icon_right i {
+  font-size: 25px;
+  color: #5c5c5c;
+}
+.tringle-shap {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  rotate: 60deg;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 28px solid transparent;
+  border-right: 28px solid transparent;
+  border-bottom: 53px solid #ddd;
+  position: relative;
+}
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -20px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #f5f5f5;
+}
+
+.tringle-shap1 {
+  position: absolute;
+  right: -10px;
+  top: 30%;
+  rotate: 50deg;
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 40px;
+    height: 560px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #ffffff 58%, #112ea3 3%, #112ea3 70%);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img.logo_png {
+    max-width: 150px;
+}
+
+.message span {
+    color: #112ea3;
+    font-size: 30px;
+    margin: 20px 0;
+    letter-spacing: 15px;
+}
+
+.message h1 {
+    color: #112ea3;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    font-weight: 1000;
+}
+
+.message p {
+    font-size: 16px;
+    color: #112ea3;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.profile {
+    position: relative;
+}
+
+.profile .image {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.profile .image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    background-color: #112ea3;
+    box-shadow:
+        0 0 0 5px #ffffff,
+        0 0 0 10px #112ea3;
+}
+
+.profile_tile {
+    margin-top: 60px;
+    margin-left: 45px;
+}
+
+.profile h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+    width: 235px;
+    margin: auto;
+    padding: 6px;
+
+}
+
+.profile p {
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.drone-icons {
+    margin-top: 30px;
+}
+
+.drone-icons img.drone-left {
+    width: 120px;
+}
+
+.drone-right-bottom,
+.drone-left,
+.drone-right {
+    position: absolute;
+}
+
+.drone-left {
+    left: 6%;
+    bottom: 30%;
+}
+
+.drone-right {
+    top: 17px;
+    right: 30px;
+    width: 75px;
+}
+
+.drone-right-bottom {
+    bottom: 25%;
+    right: 114px;
+    width: 35px;
+}
